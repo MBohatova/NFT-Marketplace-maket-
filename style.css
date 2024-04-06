@@ -1,0 +1,1044 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Work Sans;
+  color: white;
+}
+
+.header {
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(43, 43, 43);
+  padding-bottom: 40px;
+}
+.header__wrapper {
+  width: 315px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__wrapper .logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.header__wrapper .logo-wrapper .header__name {
+  font-family: Space Mono;
+  margin: 0;
+}
+.header__wrapper .burger-menu {
+  height: 24px;
+  width: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  gap: 4.5px;
+}
+.header__wrapper .burger-menu__item {
+  height: 1.5px;
+  width: 12.75px;
+  background-color: white;
+}
+.header__wrapper .burger-menu .longest-item {
+  width: 18px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(43, 43, 43);
+}
+.main .hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 315px;
+}
+.main .hero-section .text-wrapper {
+  width: 315px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main .hero-section .text-wrapper .hero-section__h1 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 39px;
+  margin: 0;
+}
+.main .hero-section .text-wrapper .hero-section__p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+}
+.main .hero-section .picture-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  height: 315px;
+  width: 315px;
+  border-radius: 20px;
+  background-color: rgb(59, 59, 59);
+}
+.main .hero-section .picture-wrapper .text-part-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 22px 0 22px 20px;
+}
+.main .hero-section .picture-wrapper .text-part-wrapper .card-text__h {
+  width: 275px;
+  font-size: 22px;
+  line-height: 31px;
+  font-weight: 600;
+  margin: 0;
+}
+.main .hero-section .picture-wrapper .text-part-wrapper .avatar-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.main .hero-section .picture-wrapper .text-part-wrapper .avatar-wrapper .avatar-text {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+.main .hero-section .hero-section__button {
+  cursor: pointer;
+  height: 60px;
+  width: 315px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background-color: rgb(162, 89, 255);
+  border: 0;
+  border-radius: 20px;
+}
+.main .hero-section .hero-section__button .button-text {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  color: white;
+  margin: 0;
+}
+.main .hero-section .indicators-wrapper {
+  display: flex;
+  gap: 30px;
+}
+.main .hero-section .indicators-wrapper .indicator-card {
+  margin: 0 0 40px 0;
+}
+.main .hero-section .indicators-wrapper .indicator-card .indicator-h {
+  font-family: Space Mono;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 35px;
+  margin: 0;
+}
+.main .hero-section .indicators-wrapper .indicator-card .indicator-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+}
+.main .collection {
+  width: 315px;
+  margin: 40px 0 40px 0;
+}
+.main .collection .collection__text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+.main .collection .collection__text-wrapper .collection-main-h {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 39px;
+  margin: 0;
+}
+.main .collection .collection__text-wrapper .collection-main-p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+.main .collection .collection__card--wrapper .collection__dog-card--wrapper .collection__picture-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.main .collection .collection__card--wrapper .collection__dog-card--wrapper .collection__picture-wrapper .collections-small-pic-wrapper {
+  display: flex;
+  gap: 15px;
+}
+.main .collection .collection__card--wrapper .collection__dog-card--wrapper .collection__picture-wrapper .collections-small-pic-wrapper .collections-forth-pic {
+  height: 95px;
+  width: 95px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: rgb(162, 89, 255);
+}
+.main .collection .collection__card--wrapper .collection__dog-card--wrapper .collection__picture-wrapper .collections-small-pic-wrapper .collections-forth-pic .collections-forth-p {
+  font-family: Space Mono;
+  font-weight: 700;
+  font-size: 16px;
+}
+.main .collection .collection__card--wrapper .collection__dog-card--wrapper .collections__sec-h {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30.8px;
+  margin: 15px 0 0 0;
+}
+.main .collection .collection__card--wrapper .collection__dog-card--wrapper .collections__avatar-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 10px 0 0 0;
+}
+.main .collection .collection__card--wrapper .collection__dog-card--wrapper .collections__avatar-wrapper .collection__sec-p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+.main .collection .collection__card--wrapper .collection__mushroom-card--wrapper {
+  display: none;
+}
+.main .creators {
+  width: 315px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 40px 0 40px 0;
+}
+.main .creators .creators__text--wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main .creators .creators__text--wrapper .creators__main-h {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
+}
+.main .creators .creators__text--wrapper .creators__main-p {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  margin: 0;
+}
+.main .creators .creators__card--wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.main .creators .creators__card--wrapper .creators__card {
+  height: 100px;
+  width: 315px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 20px;
+  background-color: rgb(59, 59, 59);
+}
+.main .creators .creators__card--wrapper .creators__card .creators-avatar {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.main .creators .creators__card--wrapper .creators__card .creators-avatar .serial-num {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 13px;
+  left: -12px;
+  margin: 0;
+  background-color: rgb(43, 43, 43);
+  color: rgb(59, 59, 59);
+  border-radius: 50%;
+  font-family: Space Mono;
+}
+.main .creators .creators__card--wrapper .creators__card .creators__card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+.main .creators .creators__card--wrapper .creators__card .creators__card-text .creators__card-h {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+}
+.main .creators .creators__card--wrapper .creators__card .creators__card-text .creators__card-text-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.main .creators .creators__card--wrapper .creators__card .creators__card-text .creators__card-text-wrapper .creators__card-p, .main .creators .creators__card--wrapper .creators__card .creators__card-text .creators__card-text-wrapper .creators__card-indicators {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(133, 133, 132);
+  margin: 0;
+}
+.main .creators .creators__card--wrapper .creators__card .creators__card-text .creators__card-text-wrapper .creators__card-indicators {
+  color: white;
+}
+.main .creators .creators__card--wrapper .hidden-card {
+  display: none;
+}
+.main .creators .creators__button {
+  cursor: pointer;
+  height: 60px;
+  width: 315px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border: 2px solid rgb(162, 89, 255);
+  border-radius: 20px;
+  background-color: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+.main .categories {
+  width: 315px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 40px 0 40px 0;
+}
+.main .categories .categories__h {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
+}
+.main .categories .categories__cards--wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 20px;
+}
+.main .categories .categories__cards--wrapper .categories__card {
+  height: 209px;
+  background-color: rgb(59, 59, 59);
+  border-radius: 20px;
+}
+.main .categories .categories__cards--wrapper .categories__card .categories__card-p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  margin: 20px 0 0 20px;
+}
+.main .categories .categories__cards--wrapper .categories__card--bigger {
+  height: 231px;
+}
+.main .discover {
+  width: 315px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 40px 0 40px 0;
+}
+.main .discover .discover__text--wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main .discover .discover__text--wrapper .discover__h {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
+}
+.main .discover .discover__text--wrapper .discover__p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+.main .discover .discover__card--wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.main .discover .discover__card--wrapper .discover__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(59, 59, 59);
+  border-radius: 20px;
+}
+.main .discover .discover__card--wrapper .discover__card .discover__card-avatar--wrapper {
+  width: 275px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.main .discover .discover__card--wrapper .discover__card .discover__card-avatar--wrapper .discover__card-avatar-h {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+}
+.main .discover .discover__card--wrapper .discover__card .discover__card-avatar--wrapper .discover__card-avatar-img {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.main .discover .discover__card--wrapper .discover__card .discover__card-avatar--wrapper .discover__card-avatar-img .discover__card-avatar-name {
+  font-family: Space Mono;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+.main .discover .discover__card--wrapper .discover__card .discover__card-text--wrapper {
+  width: 275px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 25px;
+}
+.main .discover .discover__card--wrapper .discover__card .discover__card-text--wrapper .discover__card--greyText {
+  display: flex;
+  justify-content: space-between;
+}
+.main .discover .discover__card--wrapper .discover__card .discover__card-text--wrapper .discover__card--greyText .discover__card--indicator {
+  font-family: Space Mono;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(133, 133, 132);
+  margin: 0;
+}
+.main .discover .discover__card--wrapper .discover__card .discover__card-text--wrapper .discover__card--whiteText {
+  display: flex;
+  justify-content: space-between;
+}
+.main .discover .discover__card--wrapper .discover__card .discover__card-text--wrapper .discover__card--whiteText .discover__card--numbers {
+  font-family: Space Mono;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+}
+.main .discover .discover__button {
+  cursor: pointer;
+  height: 60px;
+  width: 315px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border: 2px solid rgb(162, 89, 255);
+  border-radius: 20px;
+  background-color: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+.main .mushrooms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  height: 590px;
+  width: 375px;
+  background-image: linear-gradient(rgba(162, 89, 255, 0), rgb(162, 89, 255)), url(./images/mashrooms\ bgi-mob.png);
+  background-size: 375px 590px;
+}
+.main .mushrooms .mushrooms__content--box {
+  width: 315px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+.main .mushrooms .mushrooms__content--box .mushrooms__text--wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.main .mushrooms .mushrooms__content--box .mushrooms__text--wrapper .mushrooms__avatar--wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  height: 44px;
+  width: 151px;
+  background-color: rgb(59, 59, 59);
+  border-radius: 20px;
+}
+.main .mushrooms .mushrooms__content--box .mushrooms__text--wrapper .mushrooms__avatar--wrapper .mushrooms__avatar-p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.main .mushrooms .mushrooms__content--box .mushrooms__text--wrapper .mushrooms__h {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 45.6px;
+  margin: 0;
+}
+.main .mushrooms .mushrooms__content--box .mushrooms__timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 144px;
+  width: 315px;
+  background-color: rgba(59, 59, 59, 0.5);
+  border-radius: 20px;
+}
+.main .mushrooms .mushrooms__content--box .mushrooms__timer .mushrooms__timer-p, .main .mushrooms .mushrooms__content--box .mushrooms__timer .mushrooms__timer-content {
+  width: 255px;
+  font-family: Space Mono;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 0;
+}
+.main .mushrooms .mushrooms__content--box .mushrooms__timer .mushrooms__timer-content {
+  font-weight: 600;
+  font-size: 34px;
+}
+.main .mushrooms .mushrooms__content--box .mushrooms__timer .mushrooms__timer-indicators {
+  display: flex;
+  width: 255px;
+  justify-content: space-between;
+}
+.main .mushrooms .mushrooms__content--box .mushrooms__timer .mushrooms__timer-indicators .indicator {
+  font-family: Space Mono;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 0;
+}
+.main .mushrooms .mushrooms__content--box .mushrooms__button {
+  cursor: pointer;
+  height: 60px;
+  width: 315px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border: 0;
+  border-radius: 20px;
+  background-color: white;
+}
+.main .mushrooms .mushrooms__content--box .mushrooms__button .mushrooms__button-text {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+.main .works {
+  width: 315px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 40px 0 40px 0;
+}
+.main .works .works__text--wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main .works .works__text--wrapper .works__h {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
+}
+.main .works .works__text--wrapper .works__p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+.main .works .works__card--wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.main .works .works__card--wrapper .works__card {
+  height: 157px;
+  width: 315px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(59, 59, 59);
+  border-radius: 20px;
+}
+.main .works .works__card--wrapper .works__card .works__card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main .works .works__card--wrapper .works__card .works__card-text .works__card-text-h {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+.main .works .works__card--wrapper .works__card .works__card-text .works__card-text-p {
+  width: 155px;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+}
+.main .digest {
+  width: 315px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 40px 0 40px 0;
+}
+.main .digest__img {
+  border-radius: 20px;
+}
+.main .digest .digest__content--wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.main .digest .digest__content--wrapper .digest__text--wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main .digest .digest__content--wrapper .digest__text--wrapper .digest__h {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 39.2px;
+  margin: 0;
+}
+.main .digest .digest__content--wrapper .digest__text--wrapper .digest__p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  margin: 0;
+}
+.main .digest .digest__content--wrapper .digest__contact--wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.main .digest .digest__content--wrapper .digest__contact--wrapper .digest__email {
+  height: 46px;
+  width: 315px;
+  border-radius: 20px;
+  border: 1px solid rgb(133, 133, 132);
+}
+.main .digest .digest__content--wrapper .digest__contact--wrapper .digest__email::-moz-placeholder {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(43, 43, 43);
+  padding: 12px 0 12px 20px;
+}
+.main .digest .digest__content--wrapper .digest__contact--wrapper .digest__email::placeholder {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(43, 43, 43);
+  padding: 12px 0 12px 20px;
+}
+.main .digest .digest__content--wrapper .digest__contact--wrapper .digest__button {
+  height: 46px;
+  width: 315px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background-color: rgb(162, 89, 255);
+  border-radius: 20px;
+  border: 0;
+}
+.main .digest .digest__content--wrapper .digest__contact--wrapper .digest__button .digest__button-p {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: rgb(59, 59, 59);
+}
+.footer .footer__content--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.footer .footer__content--wrapper .footer__marketplace {
+  width: 315px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+}
+.footer .footer__content--wrapper .footer__marketplace .footer__h-box {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.footer .footer__content--wrapper .footer__marketplace .footer__h-box .footer__h {
+  font-family: Space Mono;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 35.2px;
+  margin: 0;
+}
+.footer .footer__content--wrapper .footer__marketplace .footer__p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: rgb(204, 204, 204);
+  margin: 0;
+}
+.footer .footer__content--wrapper .footer__marketplace .footer__icon-box {
+  display: flex;
+  gap: 12px;
+}
+.footer .footer__content--wrapper .footer__explore {
+  width: 315px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer .footer__content--wrapper .footer__explore .footer__explore__h {
+  font-family: Space Mono;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 35.2px;
+  margin: 0;
+}
+.footer .footer__content--wrapper .footer__explore .footer__explore__p {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: rgb(204, 204, 204);
+  margin: 0;
+}
+.footer .footer__content--wrapper .footer__digest {
+  width: 315px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer .footer__content--wrapper .footer__digest .footer__digest__h {
+  font-family: Space Mono;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 35.2px;
+  margin: 0;
+}
+.footer .footer__content--wrapper .footer__digest .footer__digest__p {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: rgb(204, 204, 204);
+  margin: 0;
+}
+.footer .footer__content--wrapper .footer__digest .footer__button--wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.footer .footer__content--wrapper .footer__digest .footer__button--wrapper .footer__email {
+  height: 46px;
+  width: 315px;
+  border-radius: 20px;
+  border: 0;
+}
+.footer .footer__content--wrapper .footer__digest .footer__button--wrapper .footer__email::-moz-placeholder {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: rgb(43, 43, 43);
+  padding: 12px 20px 12px 20px;
+}
+.footer .footer__content--wrapper .footer__digest .footer__button--wrapper .footer__email::placeholder {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: rgb(43, 43, 43);
+  padding: 12px 20px 12px 20px;
+}
+.footer .footer__content--wrapper .footer__digest .footer__button--wrapper .footer__button {
+  height: 46px;
+  width: 315px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background-color: rgb(162, 89, 255);
+  border-radius: 20px;
+  border: 0;
+}
+.footer .footer__content--wrapper .footer__digest .footer__button--wrapper .footer__button .footer__button-p {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+.footer .footer__copyright {
+  display: flex;
+  align-items: end;
+  height: 33px;
+  width: 315px;
+  border-top: 1px solid rgb(204, 204, 204);
+  margin-bottom: 40px;
+}
+.footer .footer__copyright .footer__copyright__p {
+  font-family: Work Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13.2px;
+  color: rgb(204, 204, 204);
+  margin: 0;
+}
+
+@media (min-width: 834px) {
+  .header__wrapper {
+    width: 735px;
+  }
+  .main .hero-section {
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    gap: 30px;
+    width: 690px;
+    margin-bottom: 157px;
+  }
+  .main .hero-section .text-wrapper {
+    gap: 20px;
+    width: 330px;
+  }
+  .main .hero-section .text-wrapper .hero-section__h1 {
+    font-size: 38px;
+    line-height: 45.6px;
+  }
+  .main .hero-section .text-wrapper .hero-section__p {
+    line-height: 22.4px;
+  }
+  .main .hero-section .picture-wrapper {
+    height: 330px;
+    width: 330px;
+  }
+  .main .hero-section .picture-wrapper .hero-section__image {
+    height: 221px;
+    width: 330px;
+  }
+  .main .hero-section .picture-wrapper .text-part-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 22px 0 22px 20px;
+  }
+  .main .hero-section .hero-section__button {
+    width: 224px;
+    position: absolute;
+    top: 244px;
+  }
+  .main .hero-section .indicators-wrapper {
+    position: absolute;
+    top: 324px;
+  }
+  .main .collection {
+    display: flex;
+    flex-direction: column;
+    width: 690px;
+  }
+  .main .collection .collection__card--wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .main .collection .collection__card--wrapper .collection__dog-card--wrapper .collection__picture-wrapper .collections-prime-pic {
+    height: 330px;
+    width: 330px;
+  }
+  .main .collection .collection__card--wrapper .collection__dog-card--wrapper .collection__picture-wrapper .collections-small-pic-wrapper .collection-small-pic {
+    height: 100px;
+    width: 100px;
+  }
+  .main .collection .collection__card--wrapper .collection__dog-card--wrapper .collection__picture-wrapper .collections-small-pic-wrapper .collections-forth-pic {
+    height: 100px;
+    width: 100px;
+  }
+  .main .collection .collection__card--wrapper .collection__dog-card--wrapper .collection__picture-wrapper .collections-small-pic-wrapper .collections-forth-pic .collections-forth-p {
+    font-size: 22px;
+  }
+  .main .collection .collection__card--wrapper .collection__mushroom-card--wrapper {
+    display: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .main .collection .collection__card--wrapper .collection__mushroom-card--wrapper .collection__mushroom-picture-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .main .collection .collection__card--wrapper .collection__mushroom-card--wrapper .collection__mushroom-picture-wrapper .collections-prime-pic {
+    height: 330px;
+    width: 330px;
+  }
+  .main .collection .collection__card--wrapper .collection__mushroom-card--wrapper .collection__mushroom-picture-wrapper .collections-mushroom-small-pic-wrapper {
+    display: flex;
+    gap: 15px;
+  }
+  .main .collection .collection__card--wrapper .collection__mushroom-card--wrapper .collection__mushroom-picture-wrapper .collections-mushroom-small-pic-wrapper .collection-small-pic {
+    height: 100px;
+    width: 100px;
+  }
+  .main .collection .collection__card--wrapper .collection__mushroom-card--wrapper .collection__mushroom-picture-wrapper .collections-mushroom-small-pic-wrapper .collections-mushroom-forth-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(162, 89, 255);
+    border-radius: 20px;
+  }
+  .main .collection .collection__card--wrapper .collection__mushroom-card--wrapper .collection__mushroom-picture-wrapper .collections-mushroom-small-pic-wrapper .collections-mushroom-forth-pic .collections-forth-p {
+    font-family: Space Mono;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35.2px;
+    margin: 0;
+  }
+  .main .collection .collection__card--wrapper .collection__mushroom-card--wrapper .collections__mushroom-sec-h {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30.8px;
+    margin: 0;
+  }
+  .main .collection .collection__card--wrapper .collection__mushroom-card--wrapper .collections__mushroom-avatar-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .main .collection .collection__card--wrapper .collection__mushroom-card--wrapper .collections__mushroom-avatar-wrapper .collection__mushroom-sec-p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    margin: 0;
+  }
+  .main .creators {
+    position: relative;
+    width: 690px;
+  }
+  .main .creators .creators__text--wrapper .creators__main-p {
+    width: 343px;
+  }
+  .main .creators .creators__card--wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .main .creators .creators__card--wrapper .creators__card {
+    height: 100px;
+    width: 330px;
+  }
+  .main .creators .creators__card--wrapper .hidden-card {
+    display: inherit;
+  }
+  .main .creators .creators__button {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 247px;
+  }
+  .main .categories {
+    width: 690px;
+  }
+  .main .categories .categories__cards--wrapper {
+    gap: 30px;
+  }
+  .main .categories .categories__cards--wrapper .categories__card {
+    width: 150px;
+  }
+  .main .categories .categories__cards--wrapper .categories__card .categories__card-img {
+    width: 150px;
+  }
+  .main .categories .categories__cards--wrapper .categories__card-tablet--bigger {
+    height: 231px;
+  }
+  .main .discover {
+    position: relative;
+    width: 690px;
+  }
+  .main .discover .discover__card--wrapper {
+    flex-direction: row;
+  }
+  .main .discover .discover__card--wrapper .discover__card {
+    height: 469px;
+    width: 330px;
+  }
+  .main .discover .discover__card--wrapper .discover__card-img {
+    height: 295px;
+    width: 330px;
+  }
+  .main .discover .discover__card--wrapper .hidden__card {
+    display: none;
+  }
+  .main .discover .discover__button {
+    position: absolute;
+    height: 60px;
+    width: 187px;
+    right: 0;
+    top: 3px;
+  }
+  .main .mushrooms {
+    position: relative;
+    height: 630px;
+    width: 834px;
+    background-image: linear-gradient(rgba(162, 89, 255, 0), rgb(162, 89, 255)), url(./images/mushrooms-bg-tablet.png);
+    background-size: 834px 630px;
+  }
+  .main .mushrooms .mushrooms__content--box {
+    width: 690px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0 30px;
+  }
+  .main .mushrooms .mushrooms__content--box .mushrooms__timer {
+    margin-top: 66px;
+    width: 295px;
+  }
+  .main .mushrooms .mushrooms__content--box .mushrooms__button {
+    position: absolute;
+    width: 198px;
+    bottom: 40px;
+  }
+  .main .works {
+    width: 690px;
+  }
+  .main .works .works__card--wrapper {
+    flex-direction: row;
+  }
+  .main .works .works__card--wrapper .works__card {
+    height: 337px;
+    width: 210px;
+    flex-direction: column;
+  }
+  .main .works .works__card--wrapper .works__card .works__card-img {
+    height: 200px;
+    width: 200px;
+  }
+}/*# sourceMappingURL=style.css.map */
