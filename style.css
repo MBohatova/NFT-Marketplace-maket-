@@ -1,4 +1,4 @@
-body {
+* {
   margin: 0;
   padding: 0;
   font-family: Work Sans;
@@ -535,6 +535,7 @@ body {
 .main .mushrooms .mushrooms__content--box .mushrooms__button .mushrooms__button-text {
   font-size: 16px;
   font-weight: 600;
+  color: rgb(43, 43, 43);
   margin: 0;
 }
 .main .works {
@@ -812,8 +813,15 @@ body {
 }
 
 @media (min-width: 834px) {
+  .header {
+    padding: 0;
+  }
   .header__wrapper {
     width: 735px;
+  }
+  .main {
+    margin-top: -1px;
+    margin-bottom: -1px;
   }
   .main .hero-section {
     position: relative;
@@ -822,7 +830,7 @@ body {
     align-items: start;
     gap: 30px;
     width: 690px;
-    margin-bottom: 157px;
+    margin: 80px 0 100px 0;
   }
   .main .hero-section .text-wrapper {
     gap: 20px;
@@ -1040,5 +1048,68 @@ body {
   .main .works .works__card--wrapper .works__card .works__card-img {
     height: 200px;
     width: 200px;
+  }
+  .main .works .works__card--wrapper .works__card .works__card-text {
+    width: 170px;
+    height: 117px;
+    align-items: center;
+  }
+  .main .works .works__card--wrapper .works__card .works__card-text .works__card-text-p {
+    text-align: center;
+  }
+  .main .digest {
+    width: 690px;
+    height: 360px;
+    flex-direction: row;
+    background-color: rgb(59, 59, 59);
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+  }
+  .main .digest .digest__img {
+    height: 280px;
+    width: 300px;
+  }
+  .main .digest .digest__content--wrapper {
+    width: 300px;
+  }
+  .main .digest .digest__content--wrapper .digest__contact--wrapper .digest__email {
+    width: 300px;
+  }
+  .main .digest .digest__content--wrapper .digest__contact--wrapper .digest__button {
+    width: 300px;
+  }
+  .footer .footer__content--wrapper {
+    width: 690px;
+    justify-content: start;
+    align-items: start;
+  }
+  .footer .footer__content--wrapper .footer__marketplace {
+    width: 690px;
+  }
+  .footer .footer__content--wrapper .footer__explore {
+    width: 690px;
+  }
+  .footer .footer__content--wrapper .footer__digest {
+    width: 690px;
+  }
+  .footer .footer__content--wrapper .footer__digest .footer__button--wrapper {
+    position: relative;
+    flex-direction: row;
+  }
+  .footer .footer__content--wrapper .footer__digest .footer__button--wrapper .footer__email {
+    border-radius: 20px 0 0 20px;
+    height: 60px;
+    width: 320px;
+    outline: none;
+  }
+  .footer .footer__content--wrapper .footer__digest .footer__button--wrapper .footer__button {
+    position: absolute;
+    width: 179px;
+    height: 60px;
+    left: 280px;
+  }
+  .footer .footer__copyright {
+    width: 690px;
   }
 }/*# sourceMappingURL=style.css.map */
