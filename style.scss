@@ -37,6 +37,10 @@ $text-grey: rgba(204, 204, 204, 1);
       }
     }
 
+    .header__nav {
+      display: none;
+    }
+
     .burger-menu {
       height: 24px;
       width: 24px;
@@ -103,6 +107,10 @@ $text-grey: rgba(204, 204, 204, 1);
       width: 315px;
       border-radius: 20px;
       background-color: $grey;
+
+      .hero-section__image--dt-version {
+        display: none;
+      }
 
       .text-part-wrapper {
         display: flex;
@@ -1325,6 +1333,122 @@ $text-grey: rgba(204, 204, 204, 1);
 
     .footer__copyright {
       width: 690px;
+    }
+  }
+}
+
+@media (min-width: 1280px) {
+  .header {
+    height: 100px;
+
+    .header__wrapper {
+      width: 1179px;
+
+      .header__nav {
+        display: inherit;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        .nav__list {
+          display: flex;
+          gap: 50px;
+
+          .nav__item {
+            list-style: none;
+
+            .nav__link {
+              text-decoration: none;
+              font-size: 16px;
+              font-weight: 600;
+              line-height: 22.4px;
+            }
+          }
+        }
+
+        .nav__button {
+          cursor: pointer;
+          height: 60px;
+          width: 152px;
+          display: flex;
+          gap: 12px;
+          align-items: center;
+          justify-content: center;
+          border-radius: 20px;
+          border: 0;
+          background-color: $violet;
+          font-size: 16px;
+          font-weight: 600;
+        }
+      }
+
+      .burger-menu {
+        display: none;
+      }
+    }
+  }
+
+  .main {
+    .hero-section {
+      width: 1050px;
+      justify-content: center;
+
+      .text-wrapper {
+        height: 457px;
+        width: 510px;
+
+        .hero-section__h1 {
+          width: 500px;
+          font-size: 67px;
+          font-weight: 600;
+          line-height: 73.7px;
+        }
+
+        .hero-section__p {
+          font-size: 22px;
+          font-weight: 400;
+          line-height: 35.2px;
+        }
+      }
+
+      .picture-wrapper {
+        height: 510px;
+        width: 510px;
+
+        .hero-section__image {
+          display: none;
+        }
+
+        .hero-section__image--dt-version {
+          display: inherit;
+          border-radius: 20px 20px 0 0;
+        }
+      }
+
+      .hero-section__button {
+        left: 0;
+        top: 380px;
+      }
+
+      .indicators-wrapper {
+        left: 0;
+        top: 470px;
+        gap: 65px;
+
+        .indicator-card {
+          .indicator-h {
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 39.2px;
+          }
+
+          .indicator-p {
+            font-size: 23.99px;
+            font-weight: 400;
+            line-height: 38.38px;
+          }
+        }
+      }
     }
   }
 }
