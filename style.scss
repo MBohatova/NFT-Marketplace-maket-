@@ -12,6 +12,36 @@ $text-grey: rgba(204, 204, 204, 1);
   color: white;
 }
 
+@mixin big_h_style--phone {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 39.2px;
+  margin: 0;
+}
+
+@mixin h-style--phone {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30.8px;
+  margin: 0;
+}
+
+@mixin p-style--phone {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  margin: 0;
+}
+
+@mixin space-mono-text {
+  font-family: Space Mono;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 35.2px;
+  margin: 0;
+}
+
 .header {
   height: 54px;
   display: flex;
@@ -84,17 +114,11 @@ $text-grey: rgba(204, 204, 204, 1);
       gap: 10px;
 
       .hero-section__h1 {
-        font-size: 28px;
-        font-weight: 600;
-        line-height: 39px;
-        margin: 0;
+        @include big_h_style--phone();
       }
 
       .hero-section__p {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 22px;
-        margin: 0;
+        @include p-style--phone();
       }
     }
 
@@ -119,11 +143,7 @@ $text-grey: rgba(204, 204, 204, 1);
         padding: 22px 0 22px 20px;
 
         .card-text__h {
-          width: 275px;
-          font-size: 22px;
-          line-height: 31px;
-          font-weight: 600;
-          margin: 0;
+          @include h-style--phone();
         }
   
         .avatar-wrapper {
@@ -132,9 +152,7 @@ $text-grey: rgba(204, 204, 204, 1);
           gap: 12px;
 
           .avatar-text {
-            font-size: 16px;
-            font-weight: 400;
-            margin: 0;
+            @include p-style--phone();
           }
         }
       }
@@ -154,12 +172,8 @@ $text-grey: rgba(204, 204, 204, 1);
       border-radius: 20px;
 
       .button-text {
-        font-family: Work Sans;
-        font-size: 16px;
+        @include p-style--phone();
         font-weight: 600;
-        line-height: 22px;
-        color: white;
-        margin: 0;
       }
     }
 
@@ -169,19 +183,13 @@ $text-grey: rgba(204, 204, 204, 1);
 
       .indicator-card {
         margin: 0 0 40px 0;
+
         .indicator-h {
-          font-family: Space Mono;
-          font-weight: 700;
-          font-size: 22px;
-          line-height: 35px;
-          margin: 0;
+          @include space-mono-text();
         }
 
         .indicator-p {
-          font-weight: 400;
-          font-size: 16px;
-          line-height: 22px;
-          margin: 0;
+          @include p-style--phone();
         }
       }
     }
@@ -198,16 +206,11 @@ $text-grey: rgba(204, 204, 204, 1);
       margin-bottom: 40px;
 
       .collection-main-h {
-        font-size: 28px;
-        font-weight: 600;
-        line-height: 39px;
-        margin: 0;
+        @include big_h_style--phone();
       }
 
       .collection-main-p {
-        font-size: 16px;
-        font-weight: 400;
-        margin: 0;
+        @include p-style--phone();
       }
     }
 
@@ -241,10 +244,8 @@ $text-grey: rgba(204, 204, 204, 1);
         }
     
         .collections__sec-h {
-          font-size: 22px;
-          font-weight: 600;
-          line-height: 30.8px;
-          margin: 15px 0 0 0;
+          @include h-style--phone();
+          margin-top: 15px;
         }
     
         .collections__avatar-wrapper {
@@ -254,9 +255,7 @@ $text-grey: rgba(204, 204, 204, 1);
           margin: 10px 0 0 0;
     
           .collection__sec-p {
-            font-size: 16px;
-            font-weight: 400;
-            margin: 0;
+            @include p-style--phone();
           }
         }
       }
@@ -284,16 +283,11 @@ $text-grey: rgba(204, 204, 204, 1);
       gap: 10px;
 
       .creators__main-h {
-        font-size: 28px;
-        font-weight: 600;
-        margin: 0;
+        @include big_h_style--phone();
       }
 
       .creators__main-p {
-        font-size: 16px;
-        font-weight: 400;
-        color: white;
-        margin: 0;
+        @include p-style--phone();
       }
     }
 
@@ -331,7 +325,6 @@ $text-grey: rgba(204, 204, 204, 1);
             background-color: $background;
             color: $light-grey;
             border-radius: 50%;
-            font-family: Space Mono;
           }
         }
 
@@ -342,9 +335,7 @@ $text-grey: rgba(204, 204, 204, 1);
           gap: 5px;
 
           .creators__card-h {
-            font-size: 22px;
-            font-weight: 600;
-            margin: 0;
+            @include h-style--phone();
           }
 
           .creators__card-text-wrapper {
@@ -353,10 +344,8 @@ $text-grey: rgba(204, 204, 204, 1);
             gap: 5px;
             
             .creators__card-p {
-              font-size: 16px;
-              font-weight: 400;
+              @include p-style--phone();
               color: $light-grey;
-              margin: 0;
             }
 
             .creators__card-indicators {
@@ -390,7 +379,7 @@ $text-grey: rgba(204, 204, 204, 1);
       border-radius: 20px;
       background-color: inherit;
 
-      font-size: 16px;
+      @include p-style--phone();
       font-weight: 600;
       color: white;
     }
@@ -404,9 +393,7 @@ $text-grey: rgba(204, 204, 204, 1);
     margin: 40px 0 40px 0;
 
     .categories__h {
-      font-size: 28px;
-      font-weight: 600;
-      margin: 0;
+      @include big_h_style--phone();
     }
 
     .categories__cards--wrapper {
@@ -420,9 +407,8 @@ $text-grey: rgba(204, 204, 204, 1);
         border-radius: 20px;
 
         .categories__card-p {
-          font-size: 16px;
+          @include p-style--phone();
           font-weight: 600;
-          line-height: 22.4px;
           margin: 20px 0 0 20px;
         }
 
@@ -450,15 +436,11 @@ $text-grey: rgba(204, 204, 204, 1);
       gap: 10px;
 
       .discover__h {
-        font-size: 28px;
-        font-weight: 600;
-        margin: 0;
+        @include big_h_style--phone();
       }
 
       .discover__p {
-        font-size: 16px;
-        font-weight: 400;
-        margin: 0;
+        @include p-style--phone();
       }
     }
 
@@ -482,9 +464,7 @@ $text-grey: rgba(204, 204, 204, 1);
           gap: 5px;
 
           .discover__card-avatar-h {
-            font-size: 22px;
-            font-weight: 600;
-            margin: 0;
+            @include h-style--phone();
           }
 
           .discover__card-avatar-img {
@@ -493,10 +473,8 @@ $text-grey: rgba(204, 204, 204, 1);
             gap: 12px;
 
             .discover__card-avatar-name {
+              @include p-style--phone();
               font-family: Space Mono;
-              font-size: 16px;
-              font-weight: 400;
-              margin: 0;
             }
           }
         }
@@ -550,7 +528,7 @@ $text-grey: rgba(204, 204, 204, 1);
       border-radius: 20px;
       background-color: inherit;
 
-      font-size: 16px;
+      @include p-style--phone();
       font-weight: 600;
       color: white;
     }
@@ -589,16 +567,13 @@ $text-grey: rgba(204, 204, 204, 1);
           border-radius: 20px;
   
           .mushrooms__avatar-p {
-            font-size: 16px;
-            font-weight: 400;
+            @include p-style--phone();
           }
         }
   
         .mushrooms__h {
+          @include big_h_style--phone();
           font-size: 38px;
-          font-weight: 600;
-          line-height: 45.6px;
-          margin: 0;
         }
       }
 
@@ -657,10 +632,9 @@ $text-grey: rgba(204, 204, 204, 1);
 
 
         .mushrooms__button-text {
-          font-size: 16px;
+          @include p-style--phone();
           font-weight: 600;
           color: $light-black;
-          margin: 0;
         }
       }
     }
@@ -679,15 +653,11 @@ $text-grey: rgba(204, 204, 204, 1);
       gap: 10px;
 
       .works__h {
-        font-size: 28px;
-        font-weight: 600;
-        margin: 0;
+        @include h-style--phone();
       }
 
       .works__p {
-        font-size: 16px;
-        font-weight: 400;
-        margin: 0;
+        @include p-style--phone();
       }
     }
 
@@ -712,9 +682,8 @@ $text-grey: rgba(204, 204, 204, 1);
           gap: 10px;
 
           .works__card-text-h {
+            @include h-style--phone();
             font-size: 16px;
-            font-weight: 600;
-            margin: 0;
           }
 
           .works__card-text-p {
@@ -750,17 +719,12 @@ $text-grey: rgba(204, 204, 204, 1);
         gap: 10px;
 
         .digest__h {
+          @include h-style--phone();
           font-size: 28px;
-          font-weight: 600;
-          line-height: 39.2px;
-          margin: 0;
         }
 
         .digest__p {
-          font-size: 16px;
-          font-weight: 400;
-          line-height: 22.4px;
-          margin: 0;
+          @include p-style--phone();
         }
       }
 
@@ -781,9 +745,7 @@ $text-grey: rgba(204, 204, 204, 1);
         }
 
         .digest__email::placeholder {
-          font-family: Work Sans;
-          font-size: 16px;
-          font-weight: 400;
+          @include p-style--phone();
           color: $light-black;
           padding: 12px 0 12px 20px;
         }
@@ -802,9 +764,9 @@ $text-grey: rgba(204, 204, 204, 1);
           border: 0;
 
           .digest__button-p {
-            font-size: 16px;
-            font-weight: 600;
+            @include p-style--phone();
             color: white;
+            font-weight: 600;
           }
         }
       }
@@ -840,20 +802,13 @@ $text-grey: rgba(204, 204, 204, 1);
         align-items: center;
   
         .footer__h {
-          font-family: Space Mono;
-          font-size: 22px;
-          font-weight: 700;
-          line-height: 35.2px;
-          margin: 0;
+          @include space-mono-text();
         }
       }
   
       .footer__p {
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 22.4px;
+        @include p-style--phone();
         color: $text-grey;
-        margin: 0;
       }
   
       .footer__icon-box {
@@ -869,20 +824,12 @@ $text-grey: rgba(204, 204, 204, 1);
       gap: 20px;
   
       .footer__explore__h {
-        font-family: Space Mono;
-        font-size: 22px;
-        font-weight: 700;
-        line-height: 35.2px;
-        margin: 0;
+        @include space-mono-text();
       }
   
       .footer__explore__p {
-        font-family: Work Sans;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 22.4px;
+        @include p-style--phone();
         color: $text-grey;
-        margin: 0;
       }
     }
   
@@ -893,20 +840,12 @@ $text-grey: rgba(204, 204, 204, 1);
       gap: 20px;
   
       .footer__digest__h {
-        font-family: Space Mono;
-        font-size: 22px;
-        font-weight: 700;
-        line-height: 35.2px;
-        margin: 0;
+        @include space-mono-text();
       }
   
       .footer__digest__p {
-        font-family: Work Sans;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 22.4px;
+        @include p-style--phone();
         color: $text-grey;
-        margin: 0;
       }
   
       .footer__button--wrapper {
@@ -922,10 +861,7 @@ $text-grey: rgba(204, 204, 204, 1);
         }
   
         .footer__email::placeholder {
-          font-family: Work Sans;
-          font-size: 16px;
-          font-weight: 400;
-          line-height: 22.4px;
+          @include p-style--phone();
           color: $light-black;
           padding: 12px 20px 12px 20px;
         }
@@ -944,7 +880,7 @@ $text-grey: rgba(204, 204, 204, 1);
           border: 0;
   
           .footer__button-p {
-            font-size: 16px;
+            @include p-style--phone();
             font-weight: 600;
             color: white;
           }
@@ -1592,10 +1528,6 @@ $text-grey: rgba(204, 204, 204, 1);
         .hidden-card-dt {
           display: inherit;
         }
-      }
-
-      .creators__button {
-
       }
     }
 

@@ -72,13 +72,14 @@
 .main .hero-section .text-wrapper .hero-section__h1 {
   font-size: 28px;
   font-weight: 600;
-  line-height: 39px;
+  line-height: 39.2px;
   margin: 0;
 }
 .main .hero-section .text-wrapper .hero-section__p {
-  font-weight: 400;
+  font-family: Work Sans;
   font-size: 16px;
-  line-height: 22px;
+  font-weight: 400;
+  line-height: 22.4px;
   margin: 0;
 }
 .main .hero-section .picture-wrapper {
@@ -101,10 +102,9 @@
   padding: 22px 0 22px 20px;
 }
 .main .hero-section .picture-wrapper .text-part-wrapper .card-text__h {
-  width: 275px;
   font-size: 22px;
-  line-height: 31px;
   font-weight: 600;
+  line-height: 30.8px;
   margin: 0;
 }
 .main .hero-section .picture-wrapper .text-part-wrapper .avatar-wrapper {
@@ -113,8 +113,10 @@
   gap: 12px;
 }
 .main .hero-section .picture-wrapper .text-part-wrapper .avatar-wrapper .avatar-text {
+  font-family: Work Sans;
   font-size: 16px;
   font-weight: 400;
+  line-height: 22.4px;
   margin: 0;
 }
 .main .hero-section .hero-section__button {
@@ -132,10 +134,10 @@
 .main .hero-section .hero-section__button .button-text {
   font-family: Work Sans;
   font-size: 16px;
-  font-weight: 600;
-  line-height: 22px;
-  color: white;
+  font-weight: 400;
+  line-height: 22.4px;
   margin: 0;
+  font-weight: 600;
 }
 .main .hero-section .indicators-wrapper {
   display: flex;
@@ -146,15 +148,16 @@
 }
 .main .hero-section .indicators-wrapper .indicator-card .indicator-h {
   font-family: Space Mono;
-  font-weight: 700;
   font-size: 22px;
-  line-height: 35px;
+  font-weight: 700;
+  line-height: 35.2px;
   margin: 0;
 }
 .main .hero-section .indicators-wrapper .indicator-card .indicator-p {
-  font-weight: 400;
+  font-family: Work Sans;
   font-size: 16px;
-  line-height: 22px;
+  font-weight: 400;
+  line-height: 22.4px;
   margin: 0;
 }
 .main .collection {
@@ -170,12 +173,14 @@
 .main .collection .collection__text-wrapper .collection-main-h {
   font-size: 28px;
   font-weight: 600;
-  line-height: 39px;
+  line-height: 39.2px;
   margin: 0;
 }
 .main .collection .collection__text-wrapper .collection-main-p {
+  font-family: Work Sans;
   font-size: 16px;
   font-weight: 400;
+  line-height: 22.4px;
   margin: 0;
 }
 .main .collection .collection__card--wrapper .collection__dog-card--wrapper .collection__picture-wrapper {
@@ -205,7 +210,8 @@
   font-size: 22px;
   font-weight: 600;
   line-height: 30.8px;
-  margin: 15px 0 0 0;
+  margin: 0;
+  margin-top: 15px;
 }
 .main .collection .collection__card--wrapper .collection__dog-card--wrapper .collections__avatar-wrapper {
   display: flex;
@@ -214,8 +220,10 @@
   margin: 10px 0 0 0;
 }
 .main .collection .collection__card--wrapper .collection__dog-card--wrapper .collections__avatar-wrapper .collection__sec-p {
+  font-family: Work Sans;
   font-size: 16px;
   font-weight: 400;
+  line-height: 22.4px;
   margin: 0;
 }
 .main .collection .collection__card--wrapper .collection__mushroom-card--wrapper {
@@ -239,12 +247,14 @@
 .main .creators .creators__text--wrapper .creators__main-h {
   font-size: 28px;
   font-weight: 600;
+  line-height: 39.2px;
   margin: 0;
 }
 .main .creators .creators__text--wrapper .creators__main-p {
+  font-family: Work Sans;
   font-size: 16px;
   font-weight: 400;
-  color: white;
+  line-height: 22.4px;
   margin: 0;
 }
 .main .creators .creators__card--wrapper {
@@ -279,7 +289,6 @@
   background-color: rgb(43, 43, 43);
   color: rgb(133, 133, 132);
   border-radius: 50%;
-  font-family: Space Mono;
 }
 .main .creators .creators__card--wrapper .creators__card .creators__card-text {
   display: flex;
@@ -290,6 +299,7 @@
 .main .creators .creators__card--wrapper .creators__card .creators__card-text .creators__card-h {
   font-size: 22px;
   font-weight: 600;
+  line-height: 30.8px;
   margin: 0;
 }
 .main .creators .creators__card--wrapper .creators__card .creators__card-text .creators__card-text-wrapper {
@@ -298,10 +308,12 @@
   gap: 5px;
 }
 .main .creators .creators__card--wrapper .creators__card .creators__card-text .creators__card-text-wrapper .creators__card-p, .main .creators .creators__card--wrapper .creators__card .creators__card-text .creators__card-text-wrapper .creators__card-indicators {
+  font-family: Work Sans;
   font-size: 16px;
   font-weight: 400;
-  color: rgb(133, 133, 132);
+  line-height: 22.4px;
   margin: 0;
+  color: rgb(133, 133, 132);
 }
 .main .creators .creators__card--wrapper .creators__card .creators__card-text .creators__card-text-wrapper .creators__card-indicators {
   color: white;
@@ -323,7 +335,11 @@
   border: 2px solid rgb(162, 89, 255);
   border-radius: 20px;
   background-color: inherit;
+  font-family: Work Sans;
   font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  margin: 0;
   font-weight: 600;
   color: white;
 }
@@ -337,6 +353,7 @@
 .main .categories .categories__h {
   font-size: 28px;
   font-weight: 600;
+  line-height: 39.2px;
   margin: 0;
 }
 .main .categories .categories__cards--wrapper {
@@ -350,9 +367,12 @@
   border-radius: 20px;
 }
 .main .categories .categories__cards--wrapper .categories__card .categories__card-p {
+  font-family: Work Sans;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 22.4px;
+  margin: 0;
+  font-weight: 600;
   margin: 20px 0 0 20px;
 }
 .main .categories .categories__cards--wrapper .categories__card .long-headline {
@@ -376,11 +396,14 @@
 .main .discover .discover__text--wrapper .discover__h {
   font-size: 28px;
   font-weight: 600;
+  line-height: 39.2px;
   margin: 0;
 }
 .main .discover .discover__text--wrapper .discover__p {
+  font-family: Work Sans;
   font-size: 16px;
   font-weight: 400;
+  line-height: 22.4px;
   margin: 0;
 }
 .main .discover .discover__card--wrapper {
@@ -405,6 +428,7 @@
 .main .discover .discover__card--wrapper .discover__card .discover__card-avatar--wrapper .discover__card-avatar-h {
   font-size: 22px;
   font-weight: 600;
+  line-height: 30.8px;
   margin: 0;
 }
 .main .discover .discover__card--wrapper .discover__card .discover__card-avatar--wrapper .discover__card-avatar-img {
@@ -413,10 +437,12 @@
   gap: 12px;
 }
 .main .discover .discover__card--wrapper .discover__card .discover__card-avatar--wrapper .discover__card-avatar-img .discover__card-avatar-name {
-  font-family: Space Mono;
+  font-family: Work Sans;
   font-size: 16px;
   font-weight: 400;
+  line-height: 22.4px;
   margin: 0;
+  font-family: Space Mono;
 }
 .main .discover .discover__card--wrapper .discover__card .discover__card-text--wrapper {
   width: 275px;
@@ -457,7 +483,11 @@
   border: 2px solid rgb(162, 89, 255);
   border-radius: 20px;
   background-color: inherit;
+  font-family: Work Sans;
   font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  margin: 0;
   font-weight: 600;
   color: white;
 }
@@ -494,14 +524,18 @@
   border-radius: 20px;
 }
 .main .mushrooms .mushrooms__content--box .mushrooms__text--wrapper .mushrooms__avatar--wrapper .mushrooms__avatar-p {
+  font-family: Work Sans;
   font-size: 16px;
   font-weight: 400;
+  line-height: 22.4px;
+  margin: 0;
 }
 .main .mushrooms .mushrooms__content--box .mushrooms__text--wrapper .mushrooms__h {
-  font-size: 38px;
+  font-size: 28px;
   font-weight: 600;
-  line-height: 45.6px;
+  line-height: 39.2px;
   margin: 0;
+  font-size: 38px;
 }
 .main .mushrooms .mushrooms__content--box .mushrooms__timer {
   display: flex;
@@ -548,10 +582,13 @@
   background-color: white;
 }
 .main .mushrooms .mushrooms__content--box .mushrooms__button .mushrooms__button-text {
+  font-family: Work Sans;
   font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  margin: 0;
   font-weight: 600;
   color: rgb(43, 43, 43);
-  margin: 0;
 }
 .main .works {
   width: 315px;
@@ -566,13 +603,16 @@
   gap: 10px;
 }
 .main .works .works__text--wrapper .works__h {
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 600;
+  line-height: 30.8px;
   margin: 0;
 }
 .main .works .works__text--wrapper .works__p {
+  font-family: Work Sans;
   font-size: 16px;
   font-weight: 400;
+  line-height: 22.4px;
   margin: 0;
 }
 .main .works .works__card--wrapper {
@@ -596,9 +636,11 @@
   gap: 10px;
 }
 .main .works .works__card--wrapper .works__card .works__card-text .works__card-text-h {
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 600;
+  line-height: 30.8px;
   margin: 0;
+  font-size: 16px;
 }
 .main .works .works__card--wrapper .works__card .works__card-text .works__card-text-p {
   width: 155px;
@@ -627,12 +669,14 @@
   gap: 10px;
 }
 .main .digest .digest__content--wrapper .digest__text--wrapper .digest__h {
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 600;
-  line-height: 39.2px;
+  line-height: 30.8px;
   margin: 0;
+  font-size: 28px;
 }
 .main .digest .digest__content--wrapper .digest__text--wrapper .digest__p {
+  font-family: Work Sans;
   font-size: 16px;
   font-weight: 400;
   line-height: 22.4px;
@@ -656,6 +700,8 @@
   font-family: Work Sans;
   font-size: 16px;
   font-weight: 400;
+  line-height: 22.4px;
+  margin: 0;
   color: rgb(43, 43, 43);
   padding: 12px 0 12px 20px;
 }
@@ -663,6 +709,8 @@
   font-family: Work Sans;
   font-size: 16px;
   font-weight: 400;
+  line-height: 22.4px;
+  margin: 0;
   color: rgb(43, 43, 43);
   padding: 12px 0 12px 20px;
 }
@@ -678,9 +726,13 @@
   border: 0;
 }
 .main .digest .digest__content--wrapper .digest__contact--wrapper .digest__button .digest__button-p {
+  font-family: Work Sans;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
+  line-height: 22.4px;
+  margin: 0;
   color: white;
+  font-weight: 600;
 }
 
 .footer {
@@ -718,11 +770,12 @@
   margin: 0;
 }
 .footer .footer__content--wrapper .footer__marketplace .footer__p {
+  font-family: Work Sans;
   font-size: 16px;
   font-weight: 400;
   line-height: 22.4px;
-  color: rgb(204, 204, 204);
   margin: 0;
+  color: rgb(204, 204, 204);
 }
 .footer .footer__content--wrapper .footer__marketplace .footer__icon-box {
   display: flex;
@@ -746,8 +799,8 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 22.4px;
-  color: rgb(204, 204, 204);
   margin: 0;
+  color: rgb(204, 204, 204);
 }
 .footer .footer__content--wrapper .footer__digest {
   width: 315px;
@@ -767,8 +820,8 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 22.4px;
-  color: rgb(204, 204, 204);
   margin: 0;
+  color: rgb(204, 204, 204);
 }
 .footer .footer__content--wrapper .footer__digest .footer__button--wrapper {
   display: flex;
@@ -786,6 +839,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 22.4px;
+  margin: 0;
   color: rgb(43, 43, 43);
   padding: 12px 20px 12px 20px;
 }
@@ -794,6 +848,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 22.4px;
+  margin: 0;
   color: rgb(43, 43, 43);
   padding: 12px 20px 12px 20px;
 }
@@ -809,7 +864,11 @@
   border: 0;
 }
 .footer .footer__content--wrapper .footer__digest .footer__button--wrapper .footer__button .footer__button-p {
+  font-family: Work Sans;
   font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  margin: 0;
   font-weight: 600;
   color: white;
 }
